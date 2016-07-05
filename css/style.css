@@ -10,6 +10,7 @@
 	margin: 0 auto;
 	height: 98%;
 	width: 1000px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
 .logo {	
@@ -60,6 +61,10 @@
 	padding: 5px;	
 }
 
+.country_flag {
+	text-decoration: none;
+}
+
 .photo {
 	border-top: 1px solid #128aa7;
 	border-bottom: 1px solid #128aa7;
@@ -78,10 +83,13 @@
 }	
 
 .menu {
+	width: 100%;
 	background-color: #343434;
 	list-style: none;
 	border-bottom: 1px solid #000;
 	margin-top: 275px;
+	display: inline-block;
+	box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.75);
 }
 
 .menu > li {
@@ -156,8 +164,10 @@
 	background: #edeef0; 
 	width: 208px;
 	display: block;
+	overflow: hidden;
 	border-right: 1px solid #c7cacf;
 	border-left: 1px solid #c7cacf;
+	padding: 7px 7px 0px 7px;
 	padding: 7px 7px 20010px 7px; 
 	margin-bottom: -20000px;
 	text-align: center;
